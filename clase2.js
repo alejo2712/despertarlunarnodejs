@@ -52,3 +52,18 @@ const mustang = new Carro ('ford', 'mustang', 'negro');
 // console.log(mustang);
 
 console.log(mustang.tocarBocina());
+
+//Entregable
+
+class Usuario {
+    constructor (nombre, apellido, libros{nombre, autor}, mascotas) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.libros{nombre, autor} = libros{nombre, autor};
+        this.mascotas = [];
+    }
+}
+
+const user1 = new Usuario ('pepe', 'ape', {nombre:'name', autor:'ale'}, ['masc1', 'masc2']);
+
+console.log (user1);
