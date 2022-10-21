@@ -36,34 +36,40 @@
 // const triplicar = multiplicar (3);
 // console.log (triplicar(10));
 
-class Carro {
-    constructor (marca, modelo, color) {
-        this.marca = marca;
-        this.modelo = modelo;
-        this.color = color;
-    }
+// class Carro {
+//     constructor (marca, modelo, color) {
+//         this.marca = marca;
+//         this.modelo = modelo;
+//         this.color = color;
+//     }
 
-    tocarBocina () {
-        return 'Beeeep!!!!';
-    }
-}
+//     tocarBocina () {
+//         return 'Beeeep!!!!';
+//     }
+// }
 
-const mustang = new Carro ('ford', 'mustang', 'negro');
-// console.log(mustang);
+// const mustang = new Carro ('ford', 'mustang', 'negro');
+// // console.log(mustang);
 
-console.log(mustang.tocarBocina());
+// console.log(mustang.tocarBocina());
 
 //Entregable
 
 class Usuario {
-    constructor (nombre, apellido, libros{nombre, autor}, mascotas) {
+    constructor (nombre, apellido, libros, mascotas) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.libros{nombre, autor} = libros{nombre, autor};
-        this.mascotas = [];
+        this.libros = libros;
+        this.mascotas = mascotas;
     }
+
+    getFullName (nombre, apellido){
+        console.log (`EL nombre completo es ${nombre} ${apellido}`)
+    }
+
 }
 
-const user1 = new Usuario ('pepe', 'ape', {nombre:'name', autor:'ale'}, ['masc1', 'masc2']);
+const user1 = new Usuario ('user1', 'user1Apellido', {libro1:'libro1', libro2: 'libro2'}, ['mascota1', 'mascota2']);
 
 console.log (user1);
+user1.getFullName(user1.nombre, user1.apellido);
