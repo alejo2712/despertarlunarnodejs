@@ -64,7 +64,12 @@ class Usuario {
     }
 
     getFullName(nombre, apellido) {
-        console.log (`EL nombre completo es ${nombre} ${apellido}`)
+        //console.log (`EL nombre completo es ${nombre} ${apellido}`)
+        return nombre + apellido;
+    }
+
+    printName() {
+        console.log(this.getFullName());
     }
 
     addMascota(mascota) {
@@ -96,8 +101,9 @@ class Usuario {
 const user1 = new Usuario ('user1', 'user1Apellido', [{nombre:'libro1', autor: 'alejo'}], ['mascota1', 'mascota2']);
 
 // console.log (user1);
-// user1.getFullName(user1.nombre, user1.apellido);
+user1.getFullName(user1.nombre, user1.apellido);
 // user1.addMascota('perrito');
 // user1.countMascotas();
-user1.addBook('libro2', 'Rolon');
-user1.getBookNames();
+// user1.addBook('libro2', 'Rolon');
+// user1.getBookNames();
+printName();
