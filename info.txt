@@ -1,0 +1,25 @@
+{
+  "contenidoStr": "{\n  \"name\": \"despertarlunarnodejs\",\n  \"version\": \"1.0.0\",\n  \"description\": \"clase5 ejercicio 2\",\n  \"main\": \"clase5.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/alejo2712/despertarlunarnodejs.git\"\n  },\n  \"author\": \"Alejo\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/alejo2712/despertarlunarnodejs/issues\"\n  },\n  \"homepage\": \"https://github.com/alejo2712/despertarlunarnodejs#readme\",\n  \"dependencies\": {\n    \"moment\": \"~2.29.4\"\n  }\n}\n",
+  "contenidoObj": {
+    "name": "despertarlunarnodejs",
+    "version": "1.0.0",
+    "description": "clase5 ejercicio 2",
+    "main": "clase5.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alejo2712/despertarlunarnodejs.git"
+    },
+    "author": "Alejo",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/alejo2712/despertarlunarnodejs/issues"
+    },
+    "homepage": "https://github.com/alejo2712/despertarlunarnodejs#readme",
+    "dependencies": {
+      "moment": "~2.29.4"
+    }
+  }
+}
